@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+
+
+.description{
+    color: white;
+    background-image: linear-gradient(
+       0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)
+
+   ), url(b2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.img{
+    height: 90vh;
+    width: 45%;
+    display: grid;
+    place-content: center;
+}
+.description{
+    height: 750px;
+    width: 1000px;
+    display: grid;
+    place-content: center;
+}
+.img img{
+    width: 300px;
+}
+
+.contenido{
+    margin: auto;
+}
+.titulo,.desc,.data{
+    width: 800px;
+}
